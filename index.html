@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <title>contact</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://use.fontawesome.com/048049fb24.js"></script>
+    </head>
+    <body>
+
+     
+
+      <div id="body">
+        <!-- login-admin -->
+.         <div class="form-info-login-admin">
+              <div class="map-title-contact">
+                    <h1>Contact</h1>
+                    <h3>Adaltas operates in Europe, North America and Africa <br>
+                      with offices in Paris, Rabat and Montreal</h3>
+                            <div class="map-email-cont">
+                                <div class="f">
+                                                  <div class="france">
+                                                    <div id="france" class="tit-cont">France<span>(click)</span></div>
+                                                    <div id="franinfo">
+                                                        
+                                                        <i onclick="franphone()" class="fa fa-phone" aria-hidden="true"></i>
+                                                        <i onclick="franmail()" class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                        <i id="map1" onclick="window.open('https://www.google.fr/maps/place/6+Rue+Jules+Simon,+92100+Boulogne-Billancourt/@48.8422685,2.2316402,14.37z/data=!4m5!3m4!1s0x47e67ac34ebe540b:0xc1558cc2cc024e4b!8m2!3d48.8423183!4d2.2426973?hl=en-GB&shorturl=1'); return false;" class="fa fa-map-marker" aria-hidden="true"></i>
+                                                        <div id="fra-te" class="font">6 Rue Jules Simon <br>
+                                                          92100 Boulogne-Billancourt <br>
+                                                          France</div>
+                                                        </div>
+                                                  </div>
+                                  </div>   
+
+
+                                <div class="c"> 
+                                    <div class="canada">
+                                      <div id="canada" class="tit-cont">Canada<span>(click)</span></div>
+                                      <div id="canainfo">
+                                          
+                                          <i onclick="canaphone()" class="fa fa-phone" aria-hidden="true"></i>
+                                          <i onclick="canamail()" class="fa fa-envelope-o" aria-hidden="true"></i>
+                                          <i id="map2" onclick="window.open('https://www.google.fr/maps/place/1100+Ren%C3%A9-L%C3%A9vesque/@45.4986905,-73.5760564,15z/data=!4m5!3m4!1s0x0:0x97d0cf02b5c2f398!8m2!3d45.4980259!4d-73.5702487?hl=en-GB'); return false;" class="fa fa-map-marker" aria-hidden="true"></i>
+                                          <div id="cana-te" class="font">2500-1100 boul. René–Levesque O <br>
+                                            Montreal Quebec H3B5C9<br>
+                                            Canada</div>
+                                          </div>
+                                    </div>
+                                  </div>      
+
+                                  <div class="m">
+                                            <div  class="maroc">
+                                              <div id="maroc" class="tit-cont">Morocco<span>(click)</span></div>
+                                              <div id="maroinfo">
+                                                
+                                                  <i onclick="marphone()" class="fa fa-phone" aria-hidden="true"></i>
+                                                  <i onclick="marmail()" class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                  <i id="map3" onclick="window.open('https://www.google.fr/maps/place/Regus+-+Rabat,+Souissi/@33.9805921,-6.8357602,15z/data=!4m5!3m4!1s0xda76b530eec3da7:0xe1c432e985bf1b07!8m2!3d33.9800017!4d-6.8291771?hl=en-GB'); return false;" class="fa fa-map-marker" aria-hidden="true"></i>
+                                                  <div id="mar-te" class="font">
+                                                    Rabat Souissi Business Center
+                                                    571 Avenue Mohamed VI
+                                                    Immeuble Mathis, Bloc A 10000 Rabat Morocco
+                                                  </div>
+                                            </div>
+                                          </div>
+                                  </div>
+                          </div>
+                    <img src="/contact.png" alt="">
+              </div>
+              <!---------*--------->
+              <div class="contact-admin">
+                <div id="btn" class="butt-slide">
+                  <button class="butt butt1" onclick="customers()">Customers</button>
+                  <button class="butt butt2" onclick="admin()">Admin</button>
+
+                  
+            </div>
+                    <form action="/contact.php" method="post" id="contact" class="contact" >
+                     
+                      <!---------*--------->
+                      <div class="contact-tit1">Welcome !</div>
+                      <div class="contact-tit2">How We Can Help You</div>
+                      <!---------*--------->
+                      <label for="Full name">Full name</label> <input name="fullname" type="text" class="input-user" placeholder="Full name" required>
+                      <label for="Email">Email</label><input name="email" type="text" class="input-user" placeholder="Email" required>
+                        <label for="Phone Number">Phone Number</label><input name="phonenumber" type="text" class="input-user" placeholder="Phone Number" required>
+                          <label for="How We Can Help You">How We Can Help You</label><input name="comments" class="input-info" type="text" class="input-admin" placeholder="How We Can Help You" required>
+                          <br> 
+                          
+                      <button name="register_btn" class="butt-regi">register</button>
+                    </form>
+                    <!---------*--------->
+                    <form id="admin" class="admin" action="">
+                            <div class="contact-tit1">Welcome !</div>
+                                <div class="pos-admin">
+                                      <label for="Full name">Admin</label> <br> <input class="admin-inp" type="text"  placeholder="user name" required>
+                                     <div class="padd"></div>
+                                      <label for="Email">Password</label> <br> <input class="admin-inp" type="password"  placeholder="Password" required>
+                                      <br> <br>
+                                      <input type="checkbox" >
+                                      <div class="padd"></div>
+                                     
+                                      <button class="butt-regi butt-log">log in</button>
+                                </div>
+                    </form>
+              </div>
+          </div>
+        <!---------circle -->
+        <div class="circle">
+              <div class="cir1"></div>
+              <div class="cir2"></div>
+              <div class="cir3"></div>
+              <div class="cir4"></div>
+             
+        </div>
+
+      </div>
+
+    
+     <script src="./style.js"></script>
+     <script src="./query.js"></script>
+     <script
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+     async
+   ></script>
+  
+  
+    </body>
+    </html>

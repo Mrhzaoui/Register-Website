@@ -1,0 +1,293 @@
+@media only screen and (min-width:1400px) and (max-width:1500px){
+
+
+    .contact{
+  
+    position: absolute;
+    top: 2%;
+    
+    }
+    .map-email-cont{
+        top: 15%;
+        
+      
+        
+    }
+}
+@media only screen and (min-width:1300px) and (max-width:1400px){
+    .map-email-cont{
+        top: 30%;
+        
+      
+        
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1300px){
+
+
+    .map-email-cont{
+        top: 30%;
+        
+      
+        
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1350px){
+        .france{
+         
+        }
+        .canada{
+            
+         left: 130px;
+           
+        }
+        .maroc{
+            
+          left: 280px;
+            
+        }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1366px){
+    .map-email-cont{
+        top: 42%;
+
+          }
+    .map-title-contact h3{
+        left: 60px;
+
+    }      
+    .form-info-login-admin{
+       
+        width: 90%;
+        height: 70vh;
+        margin-left: 5%;
+        margin-top: 3%;
+        
+    }
+    .contact-admin{
+        width: 40vw;
+    }
+    .butt{
+        width: 9vw;}
+
+        .map-title-contact img{
+            width: 50vw;
+            height: 30vh;
+            position: absolute;
+            left: 1%;
+            top: 30%;
+        }
+        .contact{
+            width: 70%;
+            margin-left: -60px;
+            position: absolute;
+        }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .map-email-cont{
+        top:50%;
+
+          }
+    .map-title-contact h3{
+        left: 50px;
+        font-size: small;
+
+    }      
+    .form-info-login-admin{
+       
+        width: 90%;
+        height: 80vh;
+        margin-left: 5%;
+        margin-top: 3%;
+        
+    }
+    .contact-admin{
+        width: 40vw;
+        height: 80vh;
+    }
+    .butt{
+        width: 10vw;}
+
+        .map-title-contact img{
+            width: 50vw;
+            height: 30vh;
+            position: absolute;
+            left: 1%;
+            top: 30%;
+        }
+        .contact{
+            width: 70%;
+            
+            margin-left: -60px;
+            position: absolute;
+        }
+        .france{
+         
+        }
+        .canada{
+            
+         left: 100px;
+           
+        }
+        .maroc{
+            
+          left: 200px;
+            
+        }
+}
+@media only screen and (min-width:414px) and (max-width:736px){
+    .map-email-cont{
+        top:35%;
+
+          }
+          .map-title-contact h1{
+            left: 200px;
+          }
+    .map-title-contact h3{
+        left: 50px;
+        font-size: bolder;
+
+    }      
+    .form-info-login-admin{
+       
+        width: 90%;
+        height: 80vh;
+        margin-left: 5%;
+        margin-top: 3%;
+        
+    }
+    .contact-admin{
+        width: 130vw;
+        height: 80vh;
+        position: absolute;
+        margin-top:109% ;
+    margin-left: -74.3vw;}
+
+    .butt{
+        width: 30vw;}
+
+        .map-title-contact img{
+            width: 128vw;
+            height: 30vh;
+            position: absolute;
+            left: 1%;
+            top: 30%;
+        }
+        .contact{
+            width: 80%;
+            
+            margin-left: -30vw;
+            position: absolute;
+        }
+        .france{
+         
+        }
+        .canada{
+            
+         left: 200px;
+           
+        }
+        .maroc{
+            
+          left: 400px;
+            
+        }
+        .map-title-contact{
+            width: 80%;
+        }
+
+        .map-title-contact{
+         width: 100%;
+         
+        }
+        .form-info-login-admin{
+            width: 130%;
+        }
+        .contact-tit1{
+            font-size: xx-large;
+        }
+        .contact-tit2{
+            font-size: large;
+        }
+    }
+      
+    @media only screen and (min-width:375px) and (max-width:812px){
+        .map-email-cont{
+            top:40%;
+    
+              }
+              .map-title-contact h1{
+                left: 200px;
+              }
+        .map-title-contact h3{
+            left: 50px;
+            font-size: bolder;
+    
+        }      
+        .form-info-login-admin{
+           
+            width: 90%;
+            height: 80vh;
+            margin-left: 5%;
+            margin-top: 3%;
+            
+        }
+        .contact-admin{
+            width: 130vw;
+            height: 80vh;
+            position: absolute;
+            margin-top:109% ;
+        margin-left: -74.3vw;}
+    
+        .butt{
+            width: 30vw;}
+    
+            .map-title-contact img{
+                width: 128vw;
+                height: 30vh;
+                position: absolute;
+                left: 1%;
+                top: 30%;
+            }
+            .contact{
+                width: 80%;
+                
+                margin-left: -30vw;
+                position: absolute;
+            }
+            .france{
+             
+            }
+            .canada{
+                
+             left: 150px;
+               
+            }
+            .maroc{
+                
+              left: 400px;
+                
+            }
+            .map-title-contact{
+                width: 40%;
+            }
+    
+            .map-title-contact{
+             width: 100%;
+             
+            }
+            .form-info-login-admin{
+                width: 130%;
+            }
+            .contact-tit1{
+                font-size: xx-large;
+            }
+            .contact-tit2{
+                font-size: large;
+            }
+        }
+        
+
